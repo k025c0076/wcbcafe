@@ -32,14 +32,22 @@ img {
     margin-top: 2rem;
     line-height: 1.4;
 }
-.heading-large {
-    font-size: 3rem;
-    text-align: center;
-    margin-bottom: 1rem;
+
+/* ボタン */
+.btn {
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+}
+.btn:hover {
+    background-color: #0090aa;
 }
 
 /* ヘッダー
----------------------------------- */
+------------------------------------ */
 .page-header {
     padding-top: .5rems;
 }
@@ -59,6 +67,13 @@ img {
 .main-nav a:hover {
     color: #0bd;
 }
+
+.heading-large {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 .cover {
     background-size: cover;
     background-position: center bottom;
@@ -75,3 +90,4 @@ img {
 .about p {
     margin-bottom: 3rem;
 }
+
